@@ -1,0 +1,16 @@
+{
+  "functions": {
+    "api/deploy.js": {
+      "maxDuration": 30
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/public/index.html"
+    }
+  ],
+  "env": {
+    "VERCEL_TOKEN": "l16kX4TZ6ykuOIbdhZbr7sHp"
+  }
+}
